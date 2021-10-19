@@ -16,7 +16,12 @@ public class Main {
             }
             int contador=0;
             int actual = h;
-
+            for (int i = 0; i < vector.length; i++) {
+                if(vector[i]<actual){
+                    contador += actual - vector[i];
+                }
+                actual = vector[i];
+            }
             System.out.println(contador);
             h = in.nextInt();
         }
