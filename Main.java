@@ -1,4 +1,4 @@
-// diagrama de laser
+// diagrama de laser realizado en java
 
 import java.util.Scanner;
 
