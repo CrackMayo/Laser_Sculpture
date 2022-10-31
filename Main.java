@@ -11,7 +11,7 @@ public class Main {
             l= in.nextInt();
             in.nextLine();
             int[] vector= new int [l];
-            for (int i = 0; i < vector.length; i++) {
+            for (int i = 1; i < vector.length; i++) {
                 vector[i]=in.nextInt();
             }
             int contador=0;
@@ -25,6 +25,10 @@ public class Main {
             System.out.println(contador);
             h = in.nextInt();
         }
+
+        System.out.println(h);
+        System.out.println(l);
+
     }
 
 }
