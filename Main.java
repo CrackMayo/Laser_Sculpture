@@ -1,3 +1,5 @@
+// diagrama de laser realizado en java
+
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +13,7 @@ public class Main {
             l= in.nextInt();
             in.nextLine();
             int[] vector= new int [l];
-            for (int i = 1; i < vector.length; i++) {
+            for (int i = 4; i < vector.length; i++) {
                 vector[i]=in.nextInt();
             }
             int contador=0;
